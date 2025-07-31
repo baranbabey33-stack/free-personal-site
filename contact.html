@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - [Your Name]</title>
+    <meta name="description" content="Get in touch with [Your Name] for project inquiries, collaborations, or general questions.">
+    <meta name="keywords" content="Contact, [Your Name], Email, LinkedIn, Collaboration, Inquiry">
+    <meta name="author" content="[Your Name]">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/contact.html">
+    <meta property="og:title" content="Contact Me - [Your Name]">
+    <meta property="og:description" content="Get in touch with [Your Name] for project inquiries, collaborations, or general questions.">
+    <meta property="og:image" content="https://www.yourwebsite.com/assets/images/og-image.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.yourwebsite.com/contact.html">
+    <meta property="twitter:title" content="Contact Me - [Your Name]">
+    <meta property="twitter:description" content="Get in touch with [Your Name] for project inquiries, collaborations, or general questions.">
+    <meta property="twitter:image" content="https://www.yourwebsite.com/assets/images/og-image.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light-mode">
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <div id="particles-js"></div>
+
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">YourBrand</a>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#hero" class="nav-item">Home</a></li>
+                <li><a href="index.html#about" class="nav-item">About</a></li>
+                <li><a href="index.html#projects" class="nav-item">Projects</a></li>
+                <li><a href="index.html#contact" class="nav-item active">Contact</a></li>
+                <li class="theme-toggle-li">
+                    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-page" class="common-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Let's Connect</h2>
+            <p class="contact-intro" data-aos="fade-up" data-aos-delay="100">I'm always open to new opportunities, collaborations, or simply a chat about technology. Feel free to reach out through the form below or connect with me on social media.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Direct Contact</h3>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                    <p><i class="fas fa-phone-alt"></i> Phone: [+1 123-456-7890]</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Location: [Your City, Country]</p>
+
+                    <h3 style="margin-top: 40px;">Find Me Online</h3>
+                    <div class="social-links-contact">
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/baranbabey33-stack" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" data-aos="fade-left" data-aos-delay="300">
+                    <h3>Send Me a Message</h3>
+                    <form id="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry, Collaboration, etc.">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or idea..."></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="button button-primary">Send Message</button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 [Your Name]. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/baranbabey33-stack" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:your.email@example.com" aria-label="Send Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

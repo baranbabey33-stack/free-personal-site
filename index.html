@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Engineer</title>
+    <meta name="description" content="[Your Name]'s personal portfolio showcasing modern web development, software engineering, and innovative solutions.">
+    <meta name="keywords" content="Software Engineer, Web Developer, Portfolio, [Your Name], UI/UX, JavaScript, React, Full-stack">
+    <meta name="author" content="[Your Name]">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/">
+    <meta property="og:title" content="[Your Name] - Software Engineer Portfolio">
+    <meta property="og:description" content="[Your Name]'s personal portfolio showcasing modern web development, software engineering, and innovative solutions.">
+    <meta property="og:image" content="https://www.yourwebsite.com/assets/images/og-image.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.yourwebsite.com/">
+    <meta property="twitter:title" content="[Your Name] - Software Engineer Portfolio">
+    <meta property="twitter:description" content="[Your Name]'s personal portfolio showcasing modern web development, software engineering, and innovative solutions.">
+    <meta property="twitter:image" content="https://www.yourwebsite.com/assets/images/og-image.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light-mode">
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <div id="particles-js"></div>
+
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">YourBrand</a>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-item" data-section="hero">Home</a></li>
+                <li><a href="#about" class="nav-item" data-section="about">About</a></li>
+                <li><a href="#projects" class="nav-item" data-section="projects">Projects</a></li>
+                <li><a href="#contact" class="nav-item" data-section="contact">Contact</a></li>
+                <li class="theme-toggle-li">
+                    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Hi, I'm <span class="typing-text"></span></h1>
+            <p>I build robust and scalable software solutions that make a difference.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="button button-primary" data-aos="fade-up" data-aos-delay="500">View My Work</a>
+                <a href="#contact" class="button button-secondary" data-aos="fade-up" data-aos-delay="600">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section common-section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/15754004442360626008_0" alt="[Your Name] - Professional Photo" loading="lazy">
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                    <h3>My Story and Expertise</h3>
+                    <p>Hello! I'm **[Your Name]**, a dedicated Software Engineer with a passion for crafting efficient and user-friendly web applications. My journey in technology began with a curiosity for how digital experiences are built, leading me to specialize in **full-stack development**.</p>
+                    <p>I thrive on turning complex problems into elegant solutions, focusing on clean code, scalable architectures, and seamless user experiences. I'm constantly learning and adapting to new technologies to stay at the forefront of the industry.</p>
+                    <a href="about.html" class="button button-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section common-section">
+        <div class="container">
+            <h2 data-aos="fade-up">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6+), React.js, Vue.js, SASS, Responsive Design</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, Python, Django, Flask, RESTful APIs, GraphQL</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>SQL (PostgreSQL, MySQL), NoSQL (MongoDB, Redis)</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Azure, Docker, Kubernetes, CI/CD, Git, GitHub/GitLab</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-cube"></i>
+                    <h3>UI/UX & Design</h3>
+                    <p>Figma, Adobe XD, Wireframing, Prototyping, User-Centered Design Principles</p>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Tools & Methodologies</h3>
+                    <p>Agile/Scrum, VS Code, Postman, Webpack, Babel, Jest, Cypress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section common-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/6287005369843539141_0" alt="Project 1: E-commerce Platform Redesign" loading="lazy">
+                    <h3>E-commerce Platform Redesign</h3>
+                    <p>A complete overhaul of an existing e-commerce site, focusing on performance, mobile responsiveness, and a streamlined user checkout experience.</p>
+                    <span class="project-tech">React.js, Node.js, Express, MongoDB, Stripe API</span>
+                    <a href="projects.html" class="button button-small">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/2935068794675363352_0" alt="Project 2: AI-Powered Chatbot Integration" loading="lazy">
+                    <h3>AI-Powered Chatbot</h3>
+                    <p>Developed an intelligent chatbot integrated with a knowledge base to provide instant customer support and automate routine queries.</p>
+                    <span class="project-tech">Python, Flask, NLP, Dialogflow, React</span>
+                    <a href="projects.html" class="button button-small">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/4673706512971537193_0" alt="Project 3: Mobile Health Tracker App" loading="lazy">
+                    <h3>Mobile Health Tracker</h3>
+                    <p>A cross-platform mobile application for users to track their fitness activities, set health goals, and monitor progress.</p>
+                    <span class="project-tech">React Native, Firebase, Redux, Expo</span>
+                    <a href="projects.html" class="button button-small">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="projects.html" class="button button-primary button-large">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section common-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Get in Touch</h2>
+            <p class="contact-intro" data-aos="fade-up" data-aos-delay="100">Have a project in mind, a question, or just want to say hi? Feel free to reach out!</p>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form" action="#" method="POST" data-aos="fade-up" data-aos-delay="200">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry, Collaboration, etc.">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or idea..."></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="button button-primary">Send Message</button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+            <div class="social-contact" data-aos="fade-up" data-aos-delay="300">
+                <p>You can also find me on:</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/baranbabey33-stack" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 [Your Name]. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/baranbabey33-stack" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:your.email@example.com" aria-label="Send Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
