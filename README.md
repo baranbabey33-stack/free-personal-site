@@ -2,7 +2,7 @@
 
 # My Premium Personal Portfolio Website
 
-[![Website Screenshot - Hero Section Example](assets/images/website-screenshot.png)](assets/images/website-screenshot.png)
+[![Website Screenshot - Hero Section Example](images/website-screenshot.png)](images/website-screenshot.png)
 
 A modern, responsive, and highly interactive personal portfolio website designed to showcase my skills, projects, and professional brand in the best possible light. Built with a focus on elegant UI/UX, smooth animations, and cross-device compatibility.
 
@@ -63,7 +63,7 @@ This website is designed for easy personalization:
     * Open `index.html`, `about.html`, `projects.html`, and `contact.html`.
     * Replace all placeholder text like `Your Name`, `YourBrand`, `yourusername`, `your.email@example.com`, and project descriptions with your actual information.
 2.  **Images:**
-    * The current images are directly linked from external URLs. For better performance and control, it's highly recommended to:
+    * For the main screenshot image (`website-screenshot.png`), it is called directly from the `images/` folder as per this README. For any other images used within your website pages:
         * Download high-quality images relevant to your content.
         * Place them in the `assets/images/` folder.
         * Update the `src` attributes in your HTML files (e.g., `<img src="assets/images/your-profile-pic.jpg">`) and `url()` paths in `assets/css/style.css` (for the hero background) to point to your local images.
@@ -136,3 +136,11 @@ Feel free to reach out if you have any questions or collaboration opportunities!
 ---
 
 **© 2025 [Your Name]. All Rights Reserved.**
+
+---
+
+## Image Placement in Your GitHub Repository
+
+For the image to appear correctly in your `README.md` using the path `images/website-screenshot.png`, you need to ensure that the `website-screenshot.png` file is located inside an `images` folder **directly in the root of your `my-portfolio` project folder** on your computer (and subsequently, on GitHub).
+
+Your project's folder structure on your computer (and thus on GitHub) should look like this:
