@@ -135,7 +135,7 @@ Feel free to reach out if you have any questions or collaboration opportunities!
 
 ---
 
-**© 2025 [Your Name]. All Rights Reserved.**
+**© 2025 [Napk3N]. All Rights Reserved.**
 
 ---
 
