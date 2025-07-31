@@ -2,7 +2,7 @@
 
 # My Premium Personal Portfolio Website
 
-[![Website Screenshot - Hero Section Example](https://i.hizliresim.com/48j0g7h.png)](https://i.hizliresim.com/48j0g7h.png)
+[![Website Screenshot - Hero Section Example][![Website Screenshot - Hero Section Example](https://i.hizliresim.com/48j0g7h.png)](https://i.hizliresim.com/48j0g7h.png)
 
 A modern, responsive, and highly interactive personal portfolio website designed to showcase my skills, projects, and professional brand in the best possible light. Built with a focus on elegant UI/UX, smooth animations, and cross-device compatibility.
 
