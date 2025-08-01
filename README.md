@@ -138,9 +138,3 @@ Feel free to reach out if you have any questions or collaboration opportunities!
 **© 2025 [Napk3N]. All Rights Reserved.**
 
 ---
-
-## Image Placement in Your GitHub Repository
-
-For the image to appear correctly in your `README.md` using the path `images/website-screenshot.png`, you need to ensure that the `website-screenshot.png` file is located inside an `images` folder **directly in the root of your `my-portfolio` project folder** on your computer (and subsequently, on GitHub).
-
-Your project's folder structure on your computer (and thus on GitHub) should look like this:
